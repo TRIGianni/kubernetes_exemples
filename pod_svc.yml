@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: www-pod
+  labels:
+    app: www-lbl
+spec:
+  containers:
+  - name: www-ctr
+    image: heh8mons7000/app_web:1.0
+    ports:
+    - containerPort: 5000
+    
+    
