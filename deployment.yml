@@ -14,9 +14,6 @@ spec:
     spec:
       containers:
       - name: www-pod
-        image: heh8mons7000/app_web:1.0
+        image: heh8mons7000/app_web:2.0
         ports:
           - containerPort: 5000
-             
-
-             
